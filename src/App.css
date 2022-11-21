@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+.card-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  height: 20rem;
+  width: 27rem;
+}
+
+.CreditCard {
+  border-radius: 1rem;
+}
+
+.expire-bank {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bank {
+  padding-left: 2rem;
+}
+
+.expire-owner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  padding-left: 1rem;
+}
+
+.logo-image {
+  height: 2rem;
+  padding-top: 2rem;
+  padding-left: 15rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
