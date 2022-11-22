@@ -31,7 +31,7 @@ function CreditCard({
         <div class="expire-owner">
           <div class="expire-bank">
             <h4>
-              Expires {expirationMonth}/{expirationYear}
+              Expires {expirationMonth < 10 ? "0" : ""}{expirationMonth}/{expirationYear}
             </h4>
             <h4 class="bank">{bank}</h4>
           </div>
